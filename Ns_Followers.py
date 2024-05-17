@@ -11,9 +11,9 @@ class Ns_Followers:
         self.requests=requests
         self.__AES_NoPadding = AES_CBC_NoPadding()
 
-        self.__userid='59300958341' #Enter UserID Here
-        self.__username='upst_507' #Enter UserName Here
-        self._session='59300958341%3AUJfD5QPFWOIRqs%3A27%3AAYe6qhu_XuE7BF48L-Fi3PUnN2lxcfGF2SyHes7SXw' #Enter SessionID Here
+        self.__userid='59147251967' #Enter UserID Here
+        self.__username='upst_505' #Enter UserName Here
+        self._session='59147251967%3AczHK9h68vchape%3A25%3AAYeYh3BcZoMPVvZ33Sjd0ggxweRy1S0sMdcWMXL2lA' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
